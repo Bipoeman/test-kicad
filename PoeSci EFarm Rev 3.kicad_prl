@@ -52,9 +52,9 @@
     "zone_display_mode": 0
   },
   "git": {
-    "repo_type": "",
-    "repo_username": "",
-    "ssh_key": ""
+    "repo_type": "ssh",
+    "repo_username": "git",
+    "ssh_key": "C:\\Users\\Jellyfish\\.ssh\\id_rsa"
   },
   "meta": {
     "filename": "PoeSci EFarm Rev 3.kicad_prl",

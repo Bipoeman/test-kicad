@@ -5217,6 +5217,26 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 165.1) (xy 257.81 165.735)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48344dcd-d54a-43f3-afe1-b6196adb1147")
+	)
+	(wire
+		(pts
+			(xy 278.13 165.1) (xy 278.13 165.735)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5344d691-092d-45fd-8bda-60b568902c42")
+	)
+	(wire
+		(pts
 			(xy 389.255 57.15) (xy 389.255 62.23)
 		)
 		(stroke
@@ -5277,13 +5297,23 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 148.082) (xy 278.13 147.955)
+			(xy 278.13 146.05) (xy 278.13 145.923)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "603c400d-4b7b-44ed-8462-0cf9068235d4")
+	)
+	(wire
+		(pts
+			(xy 243.84 160.02) (xy 247.65 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "727ca466-aece-44c0-aeac-ccdcc3de442e")
 	)
 	(wire
 		(pts
@@ -5397,7 +5427,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 147.828) (xy 257.81 147.955)
+			(xy 257.81 146.05) (xy 257.81 146.177)
 		)
 		(stroke
 			(width 0)
@@ -5504,6 +5534,16 @@
 			(type default)
 		)
 		(uuid "b96f9120-7b3a-4119-b0fe-eaf7d368d2b0")
+	)
+	(wire
+		(pts
+			(xy 257.81 153.797) (xy 257.81 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd3912fb-f149-4b5b-b767-ef013a7fbcf2")
 	)
 	(wire
 		(pts
@@ -5687,6 +5727,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 160.02) (xy 288.29 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee2f16f6-471e-4163-8dd4-76ae41c8d09c")
+	)
+	(wire
+		(pts
 			(xy 389.255 77.47) (xy 389.255 82.55)
 		)
 		(stroke
@@ -5724,6 +5774,16 @@
 			(type default)
 		)
 		(uuid "fa736134-2fbe-43a1-a766-d85ac667eb10")
+	)
+	(wire
+		(pts
+			(xy 278.13 154.94) (xy 278.13 153.543)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fee493a8-486c-4a44-8eb5-51049de37b90")
 	)
 	(label "USIM_VDD"
 		(at 51.308 234.95 0)
@@ -5871,7 +5931,7 @@
 	)
 	(global_label "NET_MODE"
 		(shape input)
-		(at 247.65 160.655 180)
+		(at 243.84 160.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5881,7 +5941,7 @@
 		)
 		(uuid "05e3cea7-e909-4a40-ad85-0fb48e47cccb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.1286 160.655 0)
+			(at 231.3186 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5893,7 +5953,7 @@
 	)
 	(global_label "VBATT_BB"
 		(shape input)
-		(at 278.13 140.462 90)
+		(at 278.13 138.43 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5903,7 +5963,7 @@
 		)
 		(uuid "0b842873-7c84-4237-95f1-e5a86df72c1f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.13 128.6662 90)
+			(at 278.13 126.6342 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5981,7 +6041,7 @@
 	)
 	(global_label "NET_STATUS"
 		(shape input)
-		(at 288.29 160.655 0)
+		(at 293.37 160.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5991,7 +6051,7 @@
 		)
 		(uuid "1ea0236e-1a85-4c7d-ae35-af270e5f2a25")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 302.3838 160.655 0)
+			(at 307.4638 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6245,7 +6305,7 @@
 	)
 	(global_label "VBATT_BB"
 		(shape input)
-		(at 257.81 140.208 90)
+		(at 257.81 138.43 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6255,7 +6315,7 @@
 		)
 		(uuid "b43caa36-3b94-4130-b553-d7494347b41c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 257.81 128.4122 90)
+			(at 257.81 126.6342 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6421,7 +6481,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 278.13 151.765 270)
+		(at 278.13 149.733 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6431,7 +6491,7 @@
 		(fields_autoplaced yes)
 		(uuid "00664320-628c-486a-83a1-1909a8f78697")
 		(property "Reference" "D3"
-			(at 275.209 152.3285 90)
+			(at 275.209 150.2965 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6440,7 +6500,7 @@
 			)
 		)
 		(property "Value" "Blue"
-			(at 275.209 154.3765 90)
+			(at 275.209 152.3445 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6449,7 +6509,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 278.13 151.765 0)
+			(at 278.13 149.733 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6458,7 +6518,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 278.13 151.765 0)
+			(at 278.13 149.733 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6467,7 +6527,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 278.13 151.765 0)
+			(at 278.13 149.733 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7457,7 +7517,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 257.81 144.018 0)
+		(at 257.81 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7466,7 +7526,7 @@
 		(fields_autoplaced yes)
 		(uuid "4fc88851-3373-48fa-99bf-5201f87cb680")
 		(property "Reference" "R6"
-			(at 259.588 142.994 0)
+			(at 259.588 141.216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7475,7 +7535,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 259.588 145.042 0)
+			(at 259.588 143.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7484,7 +7544,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 256.032 144.018 90)
+			(at 256.032 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7493,7 +7553,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 144.018 0)
+			(at 257.81 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7502,7 +7562,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 257.81 144.018 0)
+			(at 257.81 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7863,7 +7923,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 257.81 151.765 90)
+		(at 257.81 149.987 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7872,7 +7932,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e6f655e-d813-43ff-b64b-fef97a399d29")
 		(property "Reference" "D2"
-			(at 260.731 152.3285 90)
+			(at 260.731 150.5505 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7881,7 +7941,7 @@
 			)
 		)
 		(property "Value" "Green"
-			(at 260.731 154.3765 90)
+			(at 260.731 152.5985 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7890,7 +7950,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 257.81 151.765 0)
+			(at 257.81 149.987 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7899,7 +7959,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 151.765 0)
+			(at 257.81 149.987 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7908,7 +7968,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 257.81 151.765 0)
+			(at 257.81 149.987 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7932,7 +7992,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 278.13 144.272 0)
+		(at 278.13 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7941,7 +8001,7 @@
 		(fields_autoplaced yes)
 		(uuid "8318cde3-7454-4898-9f99-4776572b3d80")
 		(property "Reference" "R7"
-			(at 279.908 143.248 0)
+			(at 279.908 141.216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7950,7 +8010,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 279.908 145.296 0)
+			(at 279.908 143.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7959,7 +8019,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 276.352 144.272 90)
+			(at 276.352 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7968,7 +8028,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 278.13 144.272 0)
+			(at 278.13 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7977,7 +8037,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 278.13 144.272 0)
+			(at 278.13 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8713,7 +8773,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:UMH3N")
-		(at 252.73 160.655 0)
+		(at 252.73 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8722,7 +8782,7 @@
 		(fields_autoplaced yes)
 		(uuid "d00c8a6d-3727-4b36-aacb-75a527633367")
 		(property "Reference" "Q4"
-			(at 260.1214 159.631 0)
+			(at 260.1214 158.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8731,7 +8791,7 @@
 			)
 		)
 		(property "Value" "UMH3N"
-			(at 260.1214 161.679 0)
+			(at 260.1214 161.044 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8740,7 +8800,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 252.857 171.831 0)
+			(at 252.857 171.196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8749,7 +8809,7 @@
 			)
 		)
 		(property "Datasheet" "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/digital/emh3t2r-e.pdf"
-			(at 256.54 160.655 0)
+			(at 256.54 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8758,7 +8818,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 252.73 160.655 0)
+			(at 252.73 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8867,7 +8927,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:UMH3N")
-		(at 283.21 160.655 0)
+		(at 283.21 160.02 0)
 		(mirror y)
 		(unit 2)
 		(exclude_from_sim no)
@@ -8877,7 +8937,7 @@
 		(fields_autoplaced yes)
 		(uuid "d867b628-62f8-4b3a-a489-a442be92d6a7")
 		(property "Reference" "Q4"
-			(at 275.8186 159.631 0)
+			(at 275.8186 158.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8886,7 +8946,7 @@
 			)
 		)
 		(property "Value" "UMH3N"
-			(at 275.8186 161.679 0)
+			(at 275.8186 161.044 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8895,7 +8955,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 283.083 171.831 0)
+			(at 283.083 171.196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8904,7 +8964,7 @@
 			)
 		)
 		(property "Datasheet" "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/digital/emh3t2r-e.pdf"
-			(at 279.4 160.655 0)
+			(at 279.4 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8913,7 +8973,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 283.21 160.655 0)
+			(at 283.21 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
